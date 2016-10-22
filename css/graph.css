@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    padding: 1em 0;
+}
+
+#content {
+    background: #fff;
+    clear: both;
+    width: 100%;
+    padding: 0 1em;
+    border: 1px solid #ccc;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
